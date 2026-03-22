@@ -3,6 +3,7 @@
 Monitor AI provider endpoint latency and availability with active probes, passive observation, and automatic health state classification.
 
 [![npm version](https://img.shields.io/npm/v/ai-provider-healthcheck.svg)](https://www.npmjs.com/package/ai-provider-healthcheck)
+[![npm downloads](https://img.shields.io/npm/dt/ai-provider-healthcheck.svg)](https://www.npmjs.com/package/ai-provider-healthcheck)
 [![license](https://img.shields.io/npm/l/ai-provider-healthcheck.svg)](https://github.com/SiluPanda/ai-provider-healthcheck/blob/master/LICENSE)
 [![node](https://img.shields.io/node/v/ai-provider-healthcheck.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
