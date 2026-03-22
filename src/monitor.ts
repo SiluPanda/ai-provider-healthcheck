@@ -7,7 +7,6 @@ import type {
   ProbeResult,
   SuccessMetrics,
   ResolvedProvider,
-  HealthState,
   StateChangeEvent,
   ProbeEvent,
   LatencySpikeEvent,

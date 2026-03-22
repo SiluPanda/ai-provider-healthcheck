@@ -240,7 +240,7 @@ describe('HealthStateMachine', () => {
       // From degraded, must drop below healthyLatencyMs (3000) to recover
       sm.evaluate(highLatencyMetrics, now);
       sm.evaluate(highLatencyMetrics, now);
-      const result = sm.evaluate(highLatencyMetrics, now);
+      sm.evaluate(highLatencyMetrics, now);
       // Should NOT recover because p95 is above healthyLatencyMs (3000)
       expect(sm.getState()).toBe('degraded');
     });

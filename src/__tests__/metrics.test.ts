@@ -1,6 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { MetricsCollector } from '../metrics.js';
-import type { SampleEntry } from '../types.js';
 
 describe('MetricsCollector', () => {
   let collector: MetricsCollector;

@@ -1,4 +1,4 @@
-import type { SampleEntry, LatencyStats, ErrorClassification } from './types.js';
+import type { SampleEntry, LatencyStats } from './types.js';
 
 export class MetricsCollector {
   private readonly samples: SampleEntry[] = [];
@@ -89,7 +89,9 @@ export class MetricsCollector {
     let errors = 0;
     let total = 0;
     for (const s of samples) {
-      total++;
+      if (s.success || (s.errorClassification !== 'permanent')) {
+        total++;
+      }
       if (!s.success && s.errorClassification !== 'permanent') {
         errors++;
       }

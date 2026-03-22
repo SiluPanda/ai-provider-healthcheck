@@ -110,7 +110,7 @@ export class HealthStateMachine {
         return 'healthy';
       }
       // Still degraded -- haven't crossed back to healthy thresholds
-      return this.state === 'unhealthy' ? 'degraded' : 'degraded';
+      return this.state;
     }
 
     return 'healthy';
