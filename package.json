@@ -1,6 +1,6 @@
 {
   "name": "ai-provider-healthcheck",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Monitor AI provider endpoint latency and availability",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
